@@ -18,14 +18,9 @@ A lightweight URL manager that saves leads to Firebase Realtime Database.
 ## Installation
 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/leads-tracker.git
+git clone https://github.com/moufik1/Leads-Tracker-App.git
 ```
 2. Open `index.html` in browser
 
-## Configuration
-Set up your Firebase config in `config.js`:
-```javascript
-const ENV = {
-  DATABASE_URL: "your-firebase-url"
-};
+
 ```
