@@ -120,6 +120,13 @@ a:hover {
   text-decoration: underline;
 }
 
+.favicon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
   body {
@@ -129,4 +136,35 @@ a:hover {
   .button-group {
     flex-direction: column;
   }
+}
+
+
+/* Previous styles remain the same, just add these new styles */
+
+.delete-item-btn {
+    background-color: transparent;
+    border: none;
+    color: var(--danger);
+    cursor: pointer;
+    padding: 0 8px;
+    font-size: 18px;
+    transition: transform 0.2s;
+}
+
+.delete-item-btn:hover {
+    transform: scale(1.2);
+    color: var(--danger);
+}
+
+/* Adjust the li to accommodate the delete button */
+li {
+    background: white;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.2s;
 }
